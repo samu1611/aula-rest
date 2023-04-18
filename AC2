@@ -1,0 +1,7 @@
+@app.route('/api/get', methods=['get'])
+def api():
+    
+        json = {
+            'status': "conxão bem Sucedida"
+        }
+        return json,200
